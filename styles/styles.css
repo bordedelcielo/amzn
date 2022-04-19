@@ -2,11 +2,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
 }
 
 img {
-    max-width: 300px;
+    max-width: 150px;
     margin: auto;
 }
 
@@ -14,17 +13,33 @@ img {
     display: flex;
     flex-direction: column;
     margin: auto;
-    min-width: 500px;
-    padding: 20px;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px;
     border-style: solid;
+    border-color: #9f9f9f;
+}
+
+.topleft {
+    margin-left: 10px;
+}
+
+.help {
+    text-align: center;
+}
+
+.pw-ct {
+    margin-bottom: 15px;
 }
 
 .button {
     display: flex;
     margin: auto;
     justify-content: center;
-    min-width: 500px;
+    min-width: 342px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .signup {
@@ -36,26 +51,32 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 500px;
+    min-width: 342px;
 }
 
 .mytextdiv {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 500px;
+    max-width: 342px;
     margin: auto;
 }
 
 .mytexttitle {
     flex-grow: 0;
+    color: #9f9f9f;
 }
 
 .divider {
-    margin: 5px;
     flex-grow: 1;
     height: 1px;
     background-color: #9f9f9f;
+}
+
+.yellow {
+    background-color: #f0c14b;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .pass {
@@ -63,6 +84,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-left: 40px;
 }
 
 .footer {
