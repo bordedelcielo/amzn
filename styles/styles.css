@@ -29,7 +29,7 @@ img {
     padding-right: 20px;
     border: 1px;
     border-style: solid;
-    border-color: #9f9f9f;
+    border-color: #cfcdcd;
 }
 
 .topleft {
@@ -100,7 +100,7 @@ img {
 .divider {
     flex-grow: 1;
     height: 1px;
-    background-color: #9f9f9f;
+    background-color: #cfcdcd;
 }
 
 .yellow {
@@ -124,19 +124,28 @@ img {
     text-align: center;
 }
 
+.bdiv {
+    height: 1px;
+    background-color: #cfcdcd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .URLs {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-hr {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .URL {
     padding: 10px;
+}
+
+.copy {
+    color: gray;
+    font-size: 11px;
+}
+
+.fa-copyright {
+    font-size: 9px;
 }
