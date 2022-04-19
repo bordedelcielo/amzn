@@ -13,3 +13,5 @@ https://stackoverflow.com/questions/1891857/how-do-you-stretch-an-image-to-fill-
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links
 
 https://blog.hubspot.com/website/remove-underline-from-links-css
+
+https://fontawesome.com/
