@@ -94,7 +94,7 @@ img {
 
 .mytexttitle {
     flex-grow: 0;
-    color: #9f9f9f;
+    color: grey;
 }
 
 .divider {
